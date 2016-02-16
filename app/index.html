@@ -3,15 +3,18 @@
     <head lang="en">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     </head>
     <body>
         <header class="container">
-           <div class="left">
-               <img src="image/udacity_logo.svg" alt="udacity logo">
-           </div><div class="right">
-               <h1>JANE DOETTE</h1>
-               <h3>FRONT-END NINJA</h3>
-           </div> 
+           <div class="row">
+                <div class="left col-lg-6">
+                    <img src="image/udacity_logo.svg" alt="udacity logo">
+                </div><div class="right col-lg-6">
+                    <h1>JANE DOETTE</h1>
+                    <h3>FRONT-END NINJA</h3>
+                </div> 
+           </div>
         </header>
         <section class="main container">
             <img src="image/mainimg.jpg" alt="main image">
@@ -20,21 +23,22 @@
             <div class="title">
                 <h2>Featured Work</h2>
             </div>
-            <div class="img-card-row">
-                <div class="img-card">
+            <div class="row">
+                <div class="img-card col-lg-4">
                     <img src="image/appify.jpg" alt="appify image">
                     <h2>APPIFY</h2>
                     <p>https://github.com/udacity/Appify/</p>
-                </div><div class="img-card">
+                </div><div class="img-card col-lg-4">
                     <img src="image/sunflower.jpg" alt="sunflower image">
                     <h2>SUNFLOWER</h2>
                     <p>https://github.com/udacity/Sunflower/</p>
-                </div><div class="img-card">
+                </div><div class="img-card" col-lg-4>
                     <img src="image/bokeh.jpg" alt="bokeh image">
                     <h2>BOKEH</h2>
                     <p>htttps://github.com/udacity/Bokeh/</p>
                 </div>
             </div>
         </section>
+        <scrip src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></scrip>
     </body>
 </html>

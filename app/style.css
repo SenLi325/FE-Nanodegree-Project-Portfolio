@@ -2,11 +2,6 @@ html{
         font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-}
-
 img{
     width: 100%;
 }
@@ -24,16 +19,6 @@ header{
     text-align: right;
 }
 
-.left,
-.right{
-   width:50%;
-   margin: 0;
-   padding: 0;
-   height: 100%;
-   display: inline-block;
-   align-self: center;
-   vertical-align: top;
-}
 
 .right h1{
     font-size: 3em;
@@ -51,14 +36,6 @@ header{
     margin-top:1em;
 }
 
-.img-card{
-    width:30%;
-    display: inline-block;
-    vertical-align: top;
-}
-.img-card + .img-card{
-    margin-left: 5%;
-}
 
 .title h2{
     font-size:3em;
