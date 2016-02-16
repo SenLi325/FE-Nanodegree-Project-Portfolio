@@ -71,3 +71,7 @@ header{
 footer{
     height: 100px;
 }
+
+a.no-line:hover{
+    text-decoration:none;
+}
