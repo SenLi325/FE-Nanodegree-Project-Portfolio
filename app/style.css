@@ -1,7 +1,7 @@
 /*******************************General Styling***********************/
 
 html{
-        font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 img{
@@ -21,7 +21,7 @@ a.no-line:hover{
 header{
     margin-top:50px;
     height: 10em;
-    border-bottom: 3px solid #BCBBBB;
+    border-bottom: 3px solid #bcbbbb;
 }
 
 .left img{
@@ -43,7 +43,7 @@ header{
 .right h1,
 .right h3{
     font-weight: 100;
-    color: #BCBBBB;
+    color: #bcbbbb;
     margin-top: 0.5em;
 }
 
@@ -58,7 +58,7 @@ header{
 .title h2{
     font-size:2.7em;
     font-weight: 100;
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .img-card{
